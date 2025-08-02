@@ -4,7 +4,7 @@
 using namespace std;
 void supay(string dialogo){
 	for(int i=0; i<dialogo.size();i++){
-		cout<<dialogo[i]<< flush;
+		cout<<dialogo[i]<<
 		usleep(100000);
 	}
 	cout<<"    "<<endl;
@@ -15,12 +15,6 @@ void TRAICIONAO(string dialogo){
 		usleep(500000);
 	}
 	cout<<"    "<<endl;
-}
-void Rumi(string dialogo){
-	for(int i=0; i<dialogo.size();i++){
-		cout<<dialogo[i]<<flush;
-		usleep(10000);
-	}
 }
 void coso(string dialogo){
 	for(int i=0; i<dialogo.size();i++){
@@ -95,7 +89,7 @@ int main(){
     int respuesta;
 	system("cls");
     cout<<"///////////////////////////////////////"<<endl;
-    cout<<"    TARIPAY: Test obrado por Supay"<<endl;
+    cout<<"    TARIPAY: Test obrado por Supay     "<<endl;
     cout<<"///////////////////////////////////////"<<endl;
     cout<<"    "<<endl;
     supay("Escribe con sinceridad!");
@@ -369,11 +363,8 @@ int main(){
 		}
 		
 	case 7:{
-	int Supay=Rumi;
-	string Resultado="Rumi!";
-	if(Atuq > Supay){
-		Supay = Atuq;
-		Resultado="Atuq!";
+	if(Atuq>Rumi | Atuq>Sumak | Atuq>Awqi | Atuq>Kiya | Atuq>Saqi){
+	system("cls");
 	supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
@@ -386,10 +377,13 @@ int main(){
     supay("Soy Atuq... el Supay mas pequenito.");
     supay("No se mucho, pero te puedo abrazar si quieres.");
     supay("¿Jugamos un rato antes de comenzar?");
+    system("cls");
+    supay("Hola!, si llegaste hasta aqui");
+    supay("Significa que esta version DEMO a concluido!");
+    supay("Gracias por participar!");
 	}
-	else if(Sumak > Supay){
-		Supay = Sumak;
-		Resultado = "Sumak!";
+	else if(Sumak>Rumi | Sumak>Atuq | Sumak>Awqi | Sumak>Kiya | Sumak>Saqi){
+	system("cls");
 	supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
@@ -401,11 +395,13 @@ int main(){
 	supay("Hola... Vine porque senti tu alma temblar.");
     supay("Me llamo Sumak. Supay del silencio y el sentir profundo.");
     supay("No temas si lloras. Aqui eso también es belleza.");
+    system("cls");
+    supay("Hola!, si llegaste hasta aqui");
+    supay("Significa que esta version DEMO a concluido!");
+    supay("Gracias por participar!");
 	}
-	else if(Awqi > Supay){
-		Supay= Awqi;
-		Resultado ="Awqi!";
-		
+	else if(Awqi>Rumi | Awqi>Atuq | Awqi>Sumak | Awqi>Kiya | Awqi>Saqi){
+	system("cls");
 	supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
@@ -418,11 +414,13 @@ int main(){
     supay("Soy Awqi, el Supay que enciende caminos.");
     supay("¿Dolor? Si. ¿Caida? Tambien.");
     supay("Pero vamos, levantate. Aun tienes mucho por dar.");
+    system("cls");
+    supay("Hola!, si llegaste hasta aqui");
+    supay("Significa que esta version DEMO a concluido!");
+    supay("Gracias por participar!");
 	}
-	else if( Kiya > Supay){
-		Supay = Kiya;
-		Resultado ="Kiya!";
-	
+	else if(Kiya>Rumi | Kiya>Atuq | Kiya>Awqi | Kiya>Sumak | Kiya>Saqi){
+	system("cls");
 	supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
@@ -434,10 +432,13 @@ int main(){
 	supay("Shhh... la noche me trajo hasta ti.");
     supay("Soy Killa, Supay de lo invisible.");
     supay("No temas al silencio... en el tambien hay respuestas.");
+    system("cls");
+    supay("Hola!, si llegaste hasta aqui");
+    supay("Significa que esta version DEMO a concluido!");
+    supay("Gracias por participar!");
 	}
-	else if( Saqi > Supay){
-		Supay = Saqi;
-		Resultado="Saqi!";
+	else if(Saqi>Rumi | Saqi>Atuq | Saqi>Sumak | Saqi>Kiya | Saqi>Awqi){
+	system("cls");
 	supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
@@ -450,8 +451,13 @@ int main(){
     supay("Soy Saqi, y no hay nadie como yo.");
     supay("¿Listo para romper tus cadenas?");
     supay("¡Te vas a convertir en tu version mas epica, bb!");
+    system("cls");
+    supay("Hola!, si llegaste hasta aqui");
+    supay("Significa que esta version DEMO a concluido!");
+    supay("Gracias por participar!");
     }
     else{
+    system("cls");
     supay("......");
 	supay("Esto no te dije ni te adverti..");
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
