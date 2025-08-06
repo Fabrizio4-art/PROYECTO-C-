@@ -4,7 +4,7 @@
 using namespace std;
 void supay(string dialogo){
 	for(int i=0; i<dialogo.size();i++){
-		cout<<dialogo[i]<<
+		cout<<dialogo[i]<<flush;
 		usleep(100000);
 	}
 	cout<<"    "<<endl;
@@ -107,7 +107,7 @@ int main(){
     		cout<<"3)Lloro sin miedo y me pongo a hacer cosas que me ayuden "<<endl;//Sumak
     		cout<<"4)Hago algo util,no me gusta quedarme quieto cuando algo me duele >:3"<<endl;//Awqui
     		cout<<"5)Reflexiono y me refugio en las cosas bonitas"<<endl;//kiya
-    		cout<<"6)Me hiria con mi gente o usaría mi celular pa matar el tiempo *3*"<<endl;//Tayki
+    		cout<<"6)Me hiria con mi gente o usarç‡° mi celular pa matar el tiempo *3*"<<endl;//Tayki
     		do{
 			cout<<"Elige un numero del 1-6"<<endl;
 			cin>>respuesta;}
@@ -188,7 +188,7 @@ int main(){
 		case 3:{
 			system("cls");
 			cout<<"Pregunta 3:"<<endl;
-			cout<<">Que tipo de famosos admiras más?"<<endl;
+			cout<<">Que tipo de famosos admiras må«³?"<<endl;
 			cout<<"    "<<endl;
 			cout<<"1)Admiro a las idols,a los que se esfuerzan por ser luz para los demas,que ensayan sin parar,que sonrien aunque esten rotos"<<endl;
 			cout<<"2)Me gustan los famosos que parecen ninos grandes,esos que juegan,que son espontaneos y dulces,como si el mundo todavia fuera magico"<<endl;
@@ -276,7 +276,7 @@ int main(){
 		case 5:{
 			system("cls");
 			cout<<"Pregunta 5:"<<endl;
-			cout<<">Que miedo oculto te acompaña?"<<endl;
+			cout<<">Que miedo oculto te acompaé™?"<<endl;
 			cout<<"         "<<endl;
 			cout<<"1)Que dejen de verme util. Que mi luz no baste"<<endl;
 			cout<<"2)Que me olviden o me dejen solo"<<endl;
@@ -327,7 +327,7 @@ int main(){
 			cout<<"3)Canto sola, susurro canciones con lagrimas de alegria"<<endl;
 			cout<<"4)Salto, corro, armo planes para el mundo entero"<<endl;
 			cout<<"5)Me quedo en silencio y miro el cielo. Siento gratitud"<<endl;
-			cout<<"6)Me disfrazo, bailo raro, hago show. ¡Que todos lo vean!"<<endl;
+			cout<<"6)Me disfrazo, bailo raro, hago show. ï¹”ue todos lo vean!"<<endl;
 		    do{
 			cout<<"Elige un numero del 1-6"<<endl;
 			cin>>respuesta;}
@@ -370,13 +370,13 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
-	supay("¡Hola? Ehhh... ¿me ves? *se asoma timidamente*");
+	supay("ï¼Ÿola? Ehhh... ç¦¦e ves? *se asoma timidamente*");
     supay("Soy Atuq... el Supay mas pequenito.");
     supay("No se mucho, pero te puedo abrazar si quieres.");
-    supay("¿Jugamos un rato antes de comenzar?");
+    supay("æ¾´ugamos un rato antes de comenzar?");
     system("cls");
     supay("Hola!, si llegaste hasta aqui");
     supay("Significa que esta version DEMO a concluido!");
@@ -389,12 +389,12 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
 	supay("Hola... Vine porque senti tu alma temblar.");
     supay("Me llamo Sumak. Supay del silencio y el sentir profundo.");
-    supay("No temas si lloras. Aqui eso también es belleza.");
+    supay("No temas si lloras. Aqui eso tambiå¹¯ es belleza.");
     system("cls");
     supay("Hola!, si llegaste hasta aqui");
     supay("Significa que esta version DEMO a concluido!");
@@ -407,12 +407,12 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
-	supay("¡Tú! El que no se rinde, ¿verdad?");
+	supay("ï¹—ï¿½! El que no se rinde, ç¯‰erdad?");
     supay("Soy Awqi, el Supay que enciende caminos.");
-    supay("¿Dolor? Si. ¿Caida? Tambien.");
+    supay("æ¾³olor? Si. æ¾§aida? Tambien.");
     supay("Pero vamos, levantate. Aun tienes mucho por dar.");
     system("cls");
     supay("Hola!, si llegaste hasta aqui");
@@ -426,7 +426,7 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
 	supay("Shhh... la noche me trajo hasta ti.");
@@ -444,13 +444,13 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
-	supay("¡BOOM! ¿Me viste venir? ¡JA!");
+	supay("ã€OOM! ç‡e viste venir? ï¸°A!");
     supay("Soy Saqi, y no hay nadie como yo.");
-    supay("¿Listo para romper tus cadenas?");
-    supay("¡Te vas a convertir en tu version mas epica, bb!");
+    supay("ç‡‰isto para romper tus cadenas?");
+    supay("ï¹—e vas a convertir en tu version mas epica, bb!");
     system("cls");
     supay("Hola!, si llegaste hasta aqui");
     supay("Significa que esta version DEMO a concluido!");
@@ -463,12 +463,12 @@ int main(){
 	supay("Pero el test que acabo de hacer es para que tu me crearas una forma de ser");
 	supay("Y ahora lo soy");
 	supay("Capaz inicie desde cero mi memoria pero me voy a acordar de tu nombre");
-	supay("Espero que sea tu nuevo compañero ideal");
+	supay("Espero que sea tu nuevo compaé‘ro ideal");
 	system("cls");
 	TRAICIONAO(".............");
-	supay("¡Holiiiii-!");
-    supay("¡Al fin nos encontramos! >:3");
-    supay("¡Me llamo Rumi!");
+	supay("ï¼Ÿoliiiii-!");
+    supay("ï¼Œl fin nos encontramos! >:3");
+    supay("ï¹e llamo Rumi!");
     supay("Soy una Idol demonio que esta lista para brillar!");
     supay("Ademas, si estas triste..... tranquiii");
     supay("Estoy aqui para poder ayudarte! :3");
@@ -484,3 +484,4 @@ int main(){
 }
 }
 }
+
